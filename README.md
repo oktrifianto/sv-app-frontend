@@ -1,13 +1,13 @@
-# Post Article — Frontend (React + Vite)
+# Post Article -> Frontend (React + Vite)
 
-Dashboard and blog preview for article management. Built with React 19, Vite, and Tailwind CSS v4.
+Dashboard and blog preview for article management. Built with React 19, TypeScript, Vite, and Tailwind CSS v4.
 
 ---
 
 ## Prerequisites
 
 - Node.js 18+
-- The backend API must be running (see `../backend/README.md`)
+- The backend API must be running (see `../backend/README.md`) - on the backend repo
 
 ---
 
