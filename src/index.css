@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Brand primary color (#ff4c4c) scale — used via primary-* utilities throughout the app */
+@theme {
+  --color-primary-50: #fff0f0;
+  --color-primary-100: #ffe0e0;
+  --color-primary-200: #ffc0c0;
+  --color-primary-300: #ff9090;
+  --color-primary-400: #ff6e6e;
+  --color-primary-500: #ff4c4c;
+  --color-primary-600: #e63030;
+  --color-primary-700: #c01f1f;
+  --color-primary-800: #9a1a1a;
+  --color-primary-900: #7a1515;
+}
