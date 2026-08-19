@@ -9,7 +9,8 @@ const TABS = [
   { key: 'trash',  label: 'Trashed' },
 ] as const
 
-const PAGE_SIZE = 10
+// can adjust if needed
+const PAGE_SIZE = 20
 
 export default function Dashboard() {
   const [activeTab, setActiveTab] = useState('publish')
@@ -17,6 +18,7 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
+  // would be better using tanstack query for caching
   const fetchArticles = useCallback(async (status: string) => {
     setLoading(true)
     setError('')
